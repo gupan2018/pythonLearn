@@ -1,0 +1,8 @@
+在停用了RabbitMQ服务，之后再重启之后，原来在rabbitMQ中的数据就会消失，若要保存这些消息，
+需要要求他强制的持久化
+1. 将队列持久化，但是不持久化队列中的消息
+在producer端和consumer端声明队列时，加上durable=True参数进行持久化
+    channel.queue_declare(queue='hello', durable=True)
+
+2. 在server端的channel.basic_publish()中添加参数properties=pika.BasicProperties(delivery=2)，
+    持久化队列中的消息

@@ -1,0 +1,4 @@
+封装了epoll
+目前只支持python2，不支持python3
+代码量庞大
+游戏开发后端引擎有很多都应用了twisted

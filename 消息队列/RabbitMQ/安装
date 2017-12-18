@@ -1,0 +1,12 @@
+rebbitMQ是基于erlang语言进行开发的，所以使用rebbitMQ需要安装erlang语言，其安装过程如下
+
+windows下安装
+1. 安装erlang语言
+    http://www.yiibai.com/erlang/erlang_environment.html
+2. 开启RebbitMQ服务
+3. RabbitMQ支持不同的语言，对不同的语言直接下载对应得模块就行了
+    pika（用的最多）、Celery（也挺火的）、Haigha
+
+linux下安装
+安装了之后也需要启动rabbitmq服务
+    rabbitmq-server start

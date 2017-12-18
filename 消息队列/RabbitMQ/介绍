@@ -1,0 +1,29 @@
+RabbitMQ
+
+python中的Queue
+线程Queue：不能在进程之间进行通信
+进程Queue：父进程与子进程之间进行交互，或者同属于同一父进程下的多个子进程之间交互，或者同属于同一
+个父进程之间的子进程进行交互
+
+若想要在两个完全独立的进程（可以是不同语言编写的程序）之间进行通信，需要一个中间代理，
+这就是RabbitMQ
+
+
+举例：
+    QQ和Word进行通信
+    1. scoket，通过一个socket进行通信
+    2. 硬盘，通过json、xml等进行通信
+    3. 在QQ和Word之间建立一个中间商，QQ和Word之间通过这个中间商进行通信
+        通过socket和中间商进行通信，这样写的好处是：
+        1. 这个中间商封装了底层的socket，不用自己处理粘包等过程
+        2. 不仅可以进行双方通信，还可以实现双方通信
+        这种中间商的典型代表是：RabbitMQ、ZeroMQ和ActiveMQ等
+
+
+RabbitMQ：
+    在RabbitMQ中不止维护了一个队列，他维护了多个队列
+    在RabbitMQ的端口是
+
+查看当前RabbitMQ中有多少Queue和Queue中有多少消息
+在RabbitMQ的家目录下的sbin目录下，有一个rabbitmqctl.bat文件，执行
+    rabbitctl.bat list_queues即可查看

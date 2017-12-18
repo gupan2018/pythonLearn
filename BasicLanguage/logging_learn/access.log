@@ -1,0 +1,22 @@
+
+2017-11-14 15:51:45,563 - Logingtest_level2 - ERROR - error message
+2017-11-14 15:51:45,563 - Logingtest_level2 - CRITICAL - critical message
+2017-11-14 15:52:50,853 - Logingtest_level2 - ERROR - error message
+2017-11-14 15:52:50,854 - Logingtest_level2 - CRITICAL - critical message
+2017-11-14 15:53:12,862 - Logingtest_level2 - ERROR - error message
+2017-11-14 15:53:12,862 - Logingtest_level2 - CRITICAL - critical message
+2017-11-14 15:54:22,822 - Logingtest_level2 - INFO - info message
+2017-11-14 15:54:22,822 - Logingtest_level2 - WARNING - warn message
+2017-11-14 15:54:22,822 - Logingtest_level2 - ERROR - error message
+2017-11-14 15:54:22,822 - Logingtest_level2 - CRITICAL - critical message
+2017-11-14 15:54:29,440 - Logingtest_level2 - DEBUG - debug message
+2017-11-14 15:54:29,441 - Logingtest_level2 - INFO - info message
+2017-11-14 15:54:29,441 - Logingtest_level2 - WARNING - warn message
+2017-11-14 15:54:29,441 - Logingtest_level2 - ERROR - error message
+2017-11-14 15:54:29,441 - Logingtest_level2 - CRITICAL - critical message
+2017-11-14 15:54:42,627 - Logingtest_level2 - WARNING - warn message
+2017-11-14 15:54:42,627 - Logingtest_level2 - ERROR - error message
+2017-11-14 15:54:42,627 - Logingtest_level2 - CRITICAL - critical message
+2017-11-14 16:08:11,270 - Logingtest_level2 - WARNING - warn message
+2017-11-14 16:08:11,271 - Logingtest_level2 - ERROR - error message
+2017-11-14 16:08:11,271 - Logingtest_level2 - CRITICAL - critical message
