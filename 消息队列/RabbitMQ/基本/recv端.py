@@ -1,5 +1,6 @@
 # -*- coding:utf-8 -*-
 # __author__ = 'gupan'
+# 基本代码+消息分发轮询
 import pika
 connection = pika.BlockingConnection(
     pika.ConnectionParameters('localhost')
@@ -17,6 +18,7 @@ def callback(ch, method, properities, body):
     # properties:
     print("[x] recived %r" % body)
     print("method", method)
+
     # 发送确认消息，对应channel.basic_consume中的no_ack参数
     # ch.basic_ack(delivery_tag=method.delivery_tag)
 
@@ -30,7 +32,7 @@ channel.basic_consume(
         # 如果recv端先运行，并且没有声明接收队列，那么程序会报错
     queue='hello',
     #
-    no_ack=False)
+        no_ack=True)
 
 # 开始收消息，调用start_consuming()这个函数以后，程序会一直运行
 channel.start_consuming()
