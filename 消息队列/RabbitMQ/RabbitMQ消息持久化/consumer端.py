@@ -2,7 +2,7 @@
 # __author__ = 'gupan'
 import pika
 connection = pika.BlockingConnection(
-    pika.ConnectionParamters('localhost')
+    pika.ConnectionParameters('localhost')
 )
 
 channel = connection.channel()
@@ -17,10 +17,10 @@ def callback(ch, method, properities, body):
     # properties:
     print("[x] recived %r" % body)
     # 发送确认消息，对应channel.basic_consume中的no_ack参数
-    ch.basic_ack(delivery_tag=method.delivery_tag)
+    # ch.basic_ack(delivery_tag=method.delivery_tag)
 
 # 消费消息，只是声明了收到消息后要进行的处理，在调用start_consuming才开始收消息
-channel.basic_consum(
+channel.basic_consume(
     # 如果收到消息，就调callback函数来处理消息
     callback,
     # 要从那个队列中收消息

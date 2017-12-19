@@ -26,4 +26,4 @@ RabbitMQ：
 
 查看当前RabbitMQ中有多少Queue和Queue中有多少消息
 在RabbitMQ的家目录下的sbin目录下，有一个rabbitmqctl.bat文件，执行
-    rabbitctl.bat list_queues即可查看
+    rabbitmqctl.bat list_queues即可查看
