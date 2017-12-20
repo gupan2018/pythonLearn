@@ -2,9 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b7d9017-cbb5-46e7-8516-c0045b76711a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/消息队列/RabbitMQ/RabbitMQ负载均衡/consumer.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/消息队列/RabbitMQ/RabbitMQ负载均衡/consumer_slow.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/消息队列/RabbitMQ/RabbitMQ负载均衡/producer.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/消息队列/RabbitMQ/广播模式_direct广播模式/consumer.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/消息队列/RabbitMQ/广播模式_direct广播模式/producer.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/消息队列/RabbitMQ/广播模式_fanout广播/consumer.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/消息队列/RabbitMQ/广播模式_fanout广播/producer.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/消息队列/RabbitMQ/广播模式_topic广播模式/consumer.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/消息队列/RabbitMQ/广播模式_topic广播模式/producer.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/消息队列/RabbitMQ/RabbitMQ消息持久化/consumer端.py" afterPath="$PROJECT_DIR$/消息队列/RabbitMQ/RabbitMQ消息持久化/consumer端.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/消息队列/RabbitMQ/RabbitMQ消息持久化/producer端.py" afterPath="$PROJECT_DIR$/消息队列/RabbitMQ/RabbitMQ消息持久化/producer端.py" />
     </list>
     <ignored path="pyDev_Learn.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,63 +33,77 @@
     <splitter split-orientation="horizontal" split-proportion="0.486951">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-          <file leaf-file-name="gevent爬虫1.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/进程线程协程/协程/gevent爬虫/gevent爬虫1.py">
+          <file leaf-file-name="consumer.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/消息队列/RabbitMQ/广播模式_direct广播模式/consumer.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="73">
-                  <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+                <state relative-caret-position="361">
+                  <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
                   <folding>
-                    <element signature="e#182#207#0" expanded="true" />
+                    <element signature="e#46#56#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="gevent爬虫实现协程.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/进程线程协程/协程/gevent爬虫/gevent爬虫实现协程.py">
+          <file leaf-file-name="consumer.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/消息队列/RabbitMQ/广播模式_topic广播模式/consumer.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="304">
-                  <caret line="16" column="26" lean-forward="false" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+                <state relative-caret-position="38">
+                  <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="41" selection-end-column="25" />
+                  <folding>
+                    <element signature="e#46#56#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="producer.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/消息队列/RabbitMQ/广播模式_topic广播模式/producer.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="38">
+                  <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="27" selection-end-column="18" />
+                  <folding>
+                    <element signature="e#46#56#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="producer.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/消息队列/RabbitMQ/RabbitMQ负载均衡/producer.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="380">
+                  <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="send端.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/消息队列/RabbitMQ/基本/send端.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="263">
-                  <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="21" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="recv端.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/消息队列/RabbitMQ/基本/recv端.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="285">
-                  <caret line="29" column="31" lean-forward="true" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="consumer端.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/消息队列/RabbitMQ/RabbitMQ消息持久化/consumer端.py">
+          <file leaf-file-name="consumer.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/消息队列/RabbitMQ/RabbitMQ负载均衡/consumer.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="342">
-                  <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+                  <caret line="18" column="21" lean-forward="false" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="producer端.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/消息队列/RabbitMQ/RabbitMQ消息持久化/producer端.py">
+          <file leaf-file-name="producer.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/消息队列/RabbitMQ/广播模式_fanout广播/producer.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="342">
-                  <caret line="18" column="41" lean-forward="true" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+                <state relative-caret-position="133">
+                  <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="consumer.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/消息队列/RabbitMQ/广播模式_fanout广播/consumer.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="418">
+                  <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
                   <folding />
                 </state>
               </provider>
@@ -91,78 +113,14 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-          <file leaf-file-name="server.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/进程线程协程/协程/gevent之socket协程实现/server.py">
+          <file leaf-file-name="producer.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/消息队列/RabbitMQ/广播模式_direct广播模式/producer.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="475">
-                  <caret line="28" column="41" lean-forward="false" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+                <state relative-caret-position="323">
+                  <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
                   <folding>
-                    <element signature="e#46#59#0" expanded="true" />
+                    <element signature="e#46#56#0" expanded="true" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="epoll_client.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/进程线程协程/协程/epoll学习/epoll_client.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="19">
-                  <caret line="1" column="5" lean-forward="false" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="socket_server基本语法.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/socket网络编程/socket_server学习/socket_server基本语法.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="114">
-                  <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="背景" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/消息队列/RabbitMQ/RabbitMQ消息持久化/背景">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="190">
-                  <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/BasicLanguage/test.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="95">
-                  <caret line="53" column="26" lean-forward="false" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="30" />
-                  <folding>
-                    <element signature="e#46#55#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="test1217.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/BasicLanguage/test1217.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="76">
-                  <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-                  <folding>
-                    <element signature="e#46#69#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="3_level_menu.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/BasicLanguage/3_level_menu.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
                 </state>
               </provider>
             </entry>
@@ -194,17 +152,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/进程线程协程/多线程/信号量.py" />
-        <option value="$PROJECT_DIR$/进程线程协程/多线程/线程之Events.py" />
-        <option value="$PROJECT_DIR$/数据结构/队列/基础.py" />
-        <option value="$PROJECT_DIR$/数据结构/队列/queue.LifoQueue.py" />
-        <option value="$PROJECT_DIR$/生产者消费者模型/生产者消费者模型.py" />
-        <option value="$PROJECT_DIR$/设计模式/生产者消费者模型.py" />
-        <option value="$PROJECT_DIR$/数据结构/队列/queue.Queue.py" />
-        <option value="$PROJECT_DIR$/数据结构/队列/Queue.PriorityQqueue.py" />
-        <option value="$PROJECT_DIR$/进程线程协程/多进程/进程ID.py" />
-        <option value="$PROJECT_DIR$/进程线程协程/多进程/进程间通信/利用线程queue.py" />
-        <option value="$PROJECT_DIR$/进程线程协程/多进程/进程间通信/利用Queue实现.py" />
         <option value="$PROJECT_DIR$/进程线程协程/多进程/进程锁.py" />
         <option value="$PROJECT_DIR$/进程线程协程/守护进程/守护进程.py" />
         <option value="$PROJECT_DIR$/进程线程协程/协程/gevent爬虫/gevent爬虫1.py" />
@@ -245,6 +192,17 @@
         <option value="$PROJECT_DIR$/消息队列/RabbitMQ/基本/recv端.py" />
         <option value="$PROJECT_DIR$/消息队列/RabbitMQ/RabbitMQ消息持久化/producer端.py" />
         <option value="$PROJECT_DIR$/消息队列/RabbitMQ/RabbitMQ消息持久化/consumer端.py" />
+        <option value="$PROJECT_DIR$/消息队列/RabbitMQ/RabbitMQ广播模式/Producer.py" />
+        <option value="$PROJECT_DIR$/消息队列/RabbitMQ/RabbitMQ广播模式/producer.py" />
+        <option value="$PROJECT_DIR$/消息队列/RabbitMQ/RabbitMQ广播模式/consumer.py" />
+        <option value="$PROJECT_DIR$/消息队列/RabbitMQ/RabbitMQ广播模式/consumer_slow.py" />
+        <option value="$PROJECT_DIR$/消息队列/RabbitMQ/广播模式_fanout广播/producer.py" />
+        <option value="$PROJECT_DIR$/消息队列/RabbitMQ/广播模式_fanout广播/consumer.py" />
+        <option value="$PROJECT_DIR$/消息队列/RabbitMQ/广播模式_direct广播模式/consumer.py" />
+        <option value="$PROJECT_DIR$/消息队列/RabbitMQ/广播模式_topic广播模式/producer.py" />
+        <option value="$PROJECT_DIR$/消息队列/RabbitMQ/广播模式_topic广播模式/consumer.py" />
+        <option value="$PROJECT_DIR$/消息队列/RabbitMQ/RabbitMQ负载均衡/consumer.py" />
+        <option value="$PROJECT_DIR$/消息队列/RabbitMQ/广播模式_direct广播模式/producer.py" />
       </list>
     </option>
   </component>
@@ -297,14 +255,28 @@
               <item name="pyDev_Learn" type="462c0819:PsiDirectoryNode" />
               <item name="消息队列" type="462c0819:PsiDirectoryNode" />
               <item name="RabbitMQ" type="462c0819:PsiDirectoryNode" />
-              <item name="RabbitMQ消息持久化" type="462c0819:PsiDirectoryNode" />
+              <item name="RabbitMQ负载均衡" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pyDev_Learn" type="b2602c69:ProjectViewProjectNode" />
               <item name="pyDev_Learn" type="462c0819:PsiDirectoryNode" />
               <item name="消息队列" type="462c0819:PsiDirectoryNode" />
               <item name="RabbitMQ" type="462c0819:PsiDirectoryNode" />
-              <item name="基本" type="462c0819:PsiDirectoryNode" />
+              <item name="广播模式_direct广播模式" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyDev_Learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyDev_Learn" type="462c0819:PsiDirectoryNode" />
+              <item name="消息队列" type="462c0819:PsiDirectoryNode" />
+              <item name="RabbitMQ" type="462c0819:PsiDirectoryNode" />
+              <item name="广播模式_fanout广播" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyDev_Learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyDev_Learn" type="462c0819:PsiDirectoryNode" />
+              <item name="消息队列" type="462c0819:PsiDirectoryNode" />
+              <item name="RabbitMQ" type="462c0819:PsiDirectoryNode" />
+              <item name="广播模式_topic广播模式" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -324,13 +296,16 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Think\PycharmProjects\pyDev_Learn\进程线程协程\paramiko模块学习" />
-      <recent name="C:\Users\Think\PycharmProjects\pyDev_Learn\Classs_learn" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Think\PycharmProjects\pyDev_Learn\进程线程协程\paramiko模块学习" />
       <recent name="C:\Users\Think\PycharmProjects\pyDev_Learn\BasicLanguage" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Think\PycharmProjects\pyDev_Learn\消息队列\RabbitMQ\广播模式_direct广播模式" />
+      <recent name="C:\Users\Think\PycharmProjects\pyDev_Learn\消息队列\RabbitMQ\广播模式_fanout广播" />
+      <recent name="C:\Users\Think\PycharmProjects\pyDev_Learn\消息队列\RabbitMQ\RabbitMQ广播模式" />
+      <recent name="C:\Users\Think\PycharmProjects\pyDev_Learn\进程线程协程\paramiko模块学习" />
+      <recent name="C:\Users\Think\PycharmProjects\pyDev_Learn\Classs_learn" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -345,7 +320,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.consumer端 (1)">
+  <component name="RunManager" selected="Python.recv端">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -467,70 +442,70 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <configuration name="consumer端 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="consumer (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/消息队列/RabbitMQ/RabbitMQ消息持久化" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/消息队列/RabbitMQ/广播模式_fanout广播" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="pyDev_Learn" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/消息队列/RabbitMQ/RabbitMQ消息持久化/consumer端.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/消息队列/RabbitMQ/广播模式_fanout广播/consumer.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="epoll_server" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="producer (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/进程线程协程/协程/epoll学习" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/消息队列/RabbitMQ/广播模式_fanout广播" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="pyDev_Learn" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/进程线程协程/协程/epoll学习/epoll_server.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/消息队列/RabbitMQ/广播模式_fanout广播/producer.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="producer端" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="producer (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/消息队列/RabbitMQ/RabbitMQ消息持久化" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/消息队列/RabbitMQ/广播模式_direct广播模式" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="pyDev_Learn" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/消息队列/RabbitMQ/RabbitMQ消息持久化/producer端.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/消息队列/RabbitMQ/广播模式_direct广播模式/producer.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="produser端" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="producer" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/消息队列/RabbitMQ/消息分发轮询" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/消息队列/RabbitMQ/RabbitMQ广播模式" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="pyDev_Learn" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/消息队列/RabbitMQ/消息分发轮询/produser端.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/消息队列/RabbitMQ/RabbitMQ广播模式/producer.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -587,19 +562,19 @@
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.produser端" />
-      <item index="1" class="java.lang.String" itemvalue="Python.recv端" />
-      <item index="2" class="java.lang.String" itemvalue="Python.send端" />
-      <item index="3" class="java.lang.String" itemvalue="Python.producer端" />
-      <item index="4" class="java.lang.String" itemvalue="Python.consumer端 (1)" />
+      <item index="0" class="java.lang.String" itemvalue="Python.consumer (1)" />
+      <item index="1" class="java.lang.String" itemvalue="Python.producer (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Python.producer (2)" />
+      <item index="3" class="java.lang.String" itemvalue="Python.send端" />
+      <item index="4" class="java.lang.String" itemvalue="Python.recv端" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.consumer端 (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Python.producer端" />
-        <item index="2" class="java.lang.String" itemvalue="Python.send端" />
-        <item index="3" class="java.lang.String" itemvalue="Python.recv端" />
-        <item index="4" class="java.lang.String" itemvalue="Python.produser端" />
+        <item index="0" class="java.lang.String" itemvalue="Python.recv端" />
+        <item index="1" class="java.lang.String" itemvalue="Python.send端" />
+        <item index="2" class="java.lang.String" itemvalue="Python.producer (2)" />
+        <item index="3" class="java.lang.String" itemvalue="Python.producer (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Python.consumer (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -633,20 +608,30 @@
       <configuration name="Unittests for 0_test.MyTest.test_2" configurationId="tests" />
     </history-entry>
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17963752" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32801822" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18283582" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32752994" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33557048" sideWeight="0.50214595" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3264418" sideWeight="0.49785408" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32997763" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32687926" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861805" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3264418" sideWeight="0.49785408" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32801822" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40587595" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32752994" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40587595" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -654,7 +639,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32687926" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -715,80 +699,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/进程线程协程/多进程/进程间通信/利用Managers实现数据共享.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/进程线程协程/多进程/进程间通信/管道Pipe.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python33/Lib/multiprocessing/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="80" column="14" lean-forward="false" selection-start-line="80" selection-start-column="11" selection-end-line="80" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/进程线程协程/多进程/进程间通信/利用线程queue_失败.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons/os/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="1088" column="12" lean-forward="true" selection-start-line="1088" selection-start-column="12" selection-end-line="1088" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/进程线程协程/协程/yeild实现协程.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="19" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/进程线程协程/协程/gevent之socket.py" />
-    <entry file="file://$USER_HOME$/.PyCharmCE2017.2/system/python_stubs/-1571908645/_socket.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="618" column="11" lean-forward="true" selection-start-line="618" selection-start-column="11" selection-end-line="618" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/进程线程协程/协程/gevent之socket协程实现/server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="28" column="41" lean-forward="false" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
-          <folding>
-            <element signature="e#46#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2017.2/system/python_stubs/-1571908645/select.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="989">
-          <caret line="43" column="17" lean-forward="false" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/进程线程协程/协程/epoll学习/epoll_server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="45" column="14" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/进程线程协程/协程/gevent之socket协程实现/client.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
@@ -966,7 +876,7 @@
         <state relative-caret-position="76">
           <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
           <folding>
-            <element signature="e#46#69#0" expanded="true" />
+            <element signature="e#46#69#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -983,7 +893,7 @@
         <state relative-caret-position="95">
           <caret line="53" column="26" lean-forward="false" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="30" />
           <folding>
-            <element signature="e#46#55#0" expanded="true" />
+            <element signature="e#46#55#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1004,6 +914,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/消息队列/RabbitMQ/消息分发轮询/consumer端.py" />
     <entry file="file://$PROJECT_DIR$/消息队列/RabbitMQ/消息分发轮询/produser端.py" />
+    <entry file="jar://C:/Python33/Lib/site-packages/pika-0.11.2-py3.3.egg!/pika/adapters/blocking_connection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="1310" column="52" lean-forward="true" selection-start-line="1310" selection-start-column="52" selection-end-line="1310" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/进程线程协程/协程/gevent爬虫/gevent爬虫1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+          <folding>
+            <element signature="e#182#207#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Python33/Lib/site-packages/pika-0.11.2-py3.3.egg!/pika/connection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="1137" column="8" lean-forward="false" selection-start-line="1137" selection-start-column="8" selection-end-line="1137" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/消息队列/RabbitMQ/RabbitMQ消息持久化/producer端.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="51" lean-forward="true" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/消息队列/RabbitMQ/RabbitMQ负载均衡/consumer_slow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="22" lean-forward="true" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+          <folding>
+            <element signature="e#46#57#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/消息队列/RabbitMQ/RabbitMQ消息持久化/consumer端.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/消息队列/RabbitMQ/RabbitMQ消息持久化/背景">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -1012,53 +972,101 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/消息队列/RabbitMQ/基本/recv端.py">
+    <entry file="file://$PROJECT_DIR$/进程线程协程/协程/gevent之socket协程实现/server.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="29" column="31" lean-forward="true" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
-          <folding />
+        <state relative-caret-position="76">
+          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <folding>
+            <element signature="e#46#59#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Python33/Lib/site-packages/pika-0.11.2-py3.3.egg!/pika/adapters/blocking_connection.py">
+    <entry file="file://$PROJECT_DIR$/消息队列/RabbitMQ/基本/recv端.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="1310" column="52" lean-forward="true" selection-start-line="1310" selection-start-column="52" selection-end-line="1310" selection-end-column="52" />
+        <state relative-caret-position="285">
+          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/消息队列/RabbitMQ/基本/send端.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="21" />
+        <state relative-caret-position="190">
+          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/进程线程协程/协程/gevent爬虫/gevent爬虫1.py">
+    <entry file="file://$PROJECT_DIR$/消息队列/RabbitMQ/RabbitMQ负载均衡/producer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        <state relative-caret-position="380">
+          <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/消息队列/RabbitMQ/RabbitMQ负载均衡/consumer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="21" lean-forward="false" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/消息队列/RabbitMQ/广播模式_fanout广播/producer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/消息队列/RabbitMQ/广播模式_direct广播模式/producer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
           <folding>
-            <element signature="e#182#207#0" expanded="true" />
+            <element signature="e#46#56#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/消息队列/RabbitMQ/RabbitMQ消息持久化/producer端.py">
+    <entry file="file://$PROJECT_DIR$/消息队列/RabbitMQ/广播模式_fanout广播/consumer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="41" lean-forward="true" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+        <state relative-caret-position="418">
+          <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/消息队列/RabbitMQ/RabbitMQ消息持久化/consumer端.py">
+    <entry file="file://$PROJECT_DIR$/消息队列/RabbitMQ/广播模式_direct广播模式/consumer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-          <folding />
+        <state relative-caret-position="361">
+          <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+          <folding>
+            <element signature="e#46#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/消息队列/RabbitMQ/广播模式_topic广播模式/producer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="27" selection-end-column="18" />
+          <folding>
+            <element signature="e#46#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/消息队列/RabbitMQ/广播模式_topic广播模式/consumer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="41" selection-end-column="25" />
+          <folding>
+            <element signature="e#46#56#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
