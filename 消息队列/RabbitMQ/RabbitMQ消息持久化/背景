@@ -4,7 +4,8 @@
 在producer端和consumer端声明队列时，加上durable=True参数进行持久化
     channel.queue_declare(queue='hello', durable=True)
 
-2. 在server端的channel.basic_publish()中添加参数properties=pika.BasicProperties(delivery=2)，
+2. 在server端的channel.basic_publish()中添加参数
+    properties=pika.BasicProperties(delivery=2)
     持久化队列中的消息
 
 CentOS安装RabbitMQ服务http://blog.csdn.net/mx472756841/article/details/50733886

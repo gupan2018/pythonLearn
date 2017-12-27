@@ -8,7 +8,9 @@ import time
 class FibonacciRpcClient(object):
     def __init__(self):
         self.connection = pika.BlockingConnection(pika.ConnectionParameters(
-            host='localhost'))
+            host='192.168.17.136',
+            credentials=pika.PlainCredentials("admin", '123456')
+        ))
 
         self.channel = self.connection.channel()
 

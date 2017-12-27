@@ -2,10 +2,10 @@
 # __author__ = 'gupan'
 import pika
 import time
+user_pwd = pika.PlainCredentials("admin", '123456')
 connection = pika.BlockingConnection(
-    pika.ConnectionParameters(
-        'localhost'
-    )
+    pika.ConnectionParameters(host='192.168.17.136',
+                              credentials=user_pwd)
 )
 
 channel = connection.channel()

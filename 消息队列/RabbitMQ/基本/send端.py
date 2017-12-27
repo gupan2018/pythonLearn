@@ -2,10 +2,11 @@
 # __author__ = 'gupan'
 
 import pika
-
+user_pwd = pika.PlainCredentials("admin", '123456')
 # 相当于建立一个socket
 connection = pika.BlockingConnection(
-    pika.ConnectionParameters('localhost')
+    pika.ConnectionParameters(host='192.168.17.136',
+                              credentials=user_pwd)
 )
 
 # 申明一个管道，在管道里发消息
