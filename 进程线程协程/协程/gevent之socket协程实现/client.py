@@ -4,7 +4,7 @@ import socket
 
 client = socket.socket()
 
-client.connect(("192.168.17.133", 8888))
+client.connect(("localhost", 8888))
 
 while True:
     str = input(">>>")

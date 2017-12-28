@@ -24,6 +24,7 @@ class MyTCPHandler(socketserver.BaseRequestHandler):
                 print("err: {error}".format(error=e))
                 break
 
+
 if __name__ == "__main__":
     HOST, PORT = "localhost", 6969
     # 多线程

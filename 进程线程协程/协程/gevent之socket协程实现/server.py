@@ -11,6 +11,7 @@ def socket_handle(conn):
     try:
         while True:
             data = conn.recv(1024)
+            print(data)
             conn.send(data.upper())
             if not data:
                 conn.shutdown(socket.SHUT_WR)
@@ -22,8 +23,9 @@ def socket_handle(conn):
 
 def server(port):
     server = socket.socket()
-    server.bind(("localhost", port))
+    server.bind(("0.0.0.0", port))
     server.listen(500)
+    print(">>>")
     while True:
         conn, addr = server.accept()
         gevent.spawn(socket_handle, conn)

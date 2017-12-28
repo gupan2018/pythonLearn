@@ -4,7 +4,7 @@ import socket
 
 # 声明socket类型，同时生成socket链接对象
 client = socket.socket()
-client.connect(("localhost", 6969))
+client.connect(("192.168.17.136", 8888))
 
 # python3中只能发送byte类型数据
 # client.send(b"hello world")
