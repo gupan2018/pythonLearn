@@ -3,7 +3,7 @@
 import pika
 import uuid
 import time
-
+# 注意这里实现的rpc没有实现广播模式
 
 class FibonacciRpcClient(object):
     def __init__(self):
