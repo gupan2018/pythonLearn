@@ -26,5 +26,7 @@ channel.basic_publish(
     routing_key=severity,
     body=msg
 )
+
+
 print(" [x] Sent %r:%r" % (severity, msg))
 connection.close()
