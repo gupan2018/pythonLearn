@@ -7,8 +7,7 @@ from sqlalchemy import Column, Integer, String
 from sqlalchemy.orm import sessionmaker
 
 engine = create_engine("mysql+pymysql://root:123456@192.168.17.136/test",
-                       encoding="utf-8"
-                       )
+                       encoding="utf-8")
 
 Base = declarative_base()
 
